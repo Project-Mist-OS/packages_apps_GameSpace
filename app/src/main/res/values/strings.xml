@@ -27,8 +27,8 @@
     <string name="three_screenshot_disabled_title">Disable swipe to screenshot</string>
     <string name="state_enabled">Enabled</string>
     <string name="state_disabled">Disabled</string>
-
-    <!-- Game Mode -->
+    <string name="state_default">Default</string>
+    <!-- Game Mode Name - sorted by GameManager's enum, do not modify the sequence! -->
     <string name="game_mode_title">Mode</string>
     <string name="game_mode_unsupported">Unsupported</string>
     <string name="game_mode_standard">Standard</string>
@@ -87,4 +87,8 @@
     <string name="in_game_calls_auto_reject">Auto reject</string>
     <string name="in_game_calls_received_number">Received call from %1$s</string>
     <string name="in_game_calls_rejected_number">Rejected call from %1$s</string>
+    
+    <!-- Danmaku Notification Mode -->
+    <string name="danmaku_notification_mode_title">Danmaku Notification mode</string>
+    <string name="danmaku_notification_mode_summary">Show notification as danmaku aka bullet comments while game is active</string>
 </resources>
