@@ -158,6 +158,11 @@ class MenuSwitcher @JvmOverloads constructor(
         content?.setCompoundDrawablesRelativeWithIntrinsicBounds(null, ic, null, null)
     }
 
+    override fun onAttachedToWindow() {
+        super.onAttachedToWindow()
+        updateFrameRateBinding()
+    }
+
     override fun onDetachedFromWindow() {
         super.onDetachedFromWindow()
         stopReading()
