@@ -51,7 +51,7 @@
 
     <application
         android:name=".GameSpace"
-        android:icon="@mipmap/ic_launcher"
+        android:icon="@drawable/ic_launcher"
         android:label="@string/settings_title"
         android:persistent="true"
         android:supportsRtl="true"
@@ -60,7 +60,8 @@
         
         <activity
             android:name=".settings.SettingsActivity"
-            android:exported="true">
+            android:excludeFromRecents="true"
+            android:exported="true" >
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
                 <category android:name="android.intent.category.LAUNCHER" />
